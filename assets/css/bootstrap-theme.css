@@ -96,3 +96,31 @@
 /*           Images            */
 /*******************************/
 .img-rounded { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+
+/* Mozilla based browsers */
+::-moz-selection {
+background-color: #3A01DF;
+color: #000;
+}
+
+/* Works in Safari */
+::selection {
+background-color: #3A01DF;
+color: #FFF;
+}
+
+/* Works in Opera */
+::-o-selection {
+background-color: #3A01DF;
+color: #FFF;
+}
+::-ms-selection {
+background-color: #3A01DF;
+color: #FFF;
+}
+
+/* Works in Internet Explorer */
+::-webkit-selection {
+background-color: #3A01DF;
+color: #FFF;
+}
